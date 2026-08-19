@@ -105,7 +105,8 @@ function initNavbar() {
 
   // Mobile menu toggle
   if (mobileBtn && drawer) {
-    mobileBtn.addEventListener('click', () => {
+    mobileBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
       drawer.classList.toggle('open');
     });
 
@@ -113,6 +114,18 @@ function initNavbar() {
       link.addEventListener('click', () => {
         drawer.classList.remove('open');
       });
+    });
+
+    document.addEventListener('click', (e) => {
+      if (drawer.classList.contains('open') && !drawer.contains(e.target) && !mobileBtn.contains(e.target)) {
+        drawer.classList.remove('open');
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && drawer.classList.contains('open')) {
+        drawer.classList.remove('open');
+      }
     });
   }
 
