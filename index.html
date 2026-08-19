@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarvagya Chaturvedi | Software Engineer & Blockchain Architect</title>
+  <meta name="description" content="Portfolio of Sarvagya Chaturvedi - Computer Science Engineer, Blockchain Architect, Full-Stack Developer, and Patent Inventor.">
+  <meta name="keywords" content="Sarvagya Chaturvedi, Blockchain, Web3, Smart Contracts, Full Stack, Solidity, React, Python, IoT, Cybersecurity">
+  <meta name="author" content="Sarvagya Chaturvedi">
+  
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sarvagya Chaturvedi | Software Engineer & Blockchain Architect">
+  <meta property="og:description" content="Explore decentralized architectures, full-stack systems, patents, and hardware simulations by Sarvagya Chaturvedi.">
+  <meta property="og:image" content="assets/hero.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <!-- Ambient Gradient Background Elements -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-middle" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-container glass-card">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-dot"></span>
+        <span class="logo-text">Sarvagya<span class="accent-dot">.</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#patent" class="nav-link">Patent</a>
+        <a href="#education" class="nav-link">Education</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="#connect" class="btn btn-pill-accent btn-sm">
+          <span>Get in touch</span>
+          <svg class="icon-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-content">
+      <a href="#about" class="drawer-link">About</a>
+      <a href="#skills" class="drawer-link">Skills</a>
+      <a href="#projects" class="drawer-link">Projects</a>
+      <a href="#patent" class="drawer-link">Patent</a>
+      <a href="#education" class="drawer-link">Education</a>
+      <a href="#connect" class="drawer-link drawer-cta">Get in Touch &rarr;</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION (Folioblox Template Aesthetic) -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        
+        <!-- Hero Card with Sunset Glow and Portrait -->
+        <div class="hero-card">
+          <div class="hero-backdrop">
+            <div class="sun-glow"></div>
+            <img src="assets/hero.jpg" alt="Sarvagya Chaturvedi - Software Engineer" class="hero-portrait-img">
+          </div>
+
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="pulse-indicator"></span>
+              <span>Available for High-Impact Roles & Research</span>
+            </div>
+
+            <h1 class="hero-title">
+              <span class="hero-greeting">Hey, I'm</span>
+              <span class="hero-role text-gradient">Sarvagya Chaturvedi</span>
+            </h1>
+
+            <!-- Floating Hero Statement Pill (Folioblox feature) -->
+            <div class="hero-quote-card glass-panel">
+              <p class="quote-text">"Great software should feel effortless, resilient, and mathematically sound."</p>
+              <p class="quote-sub">From decentralized smart contracts to low-latency simulations, I build systems that scale.</p>
+            </div>
+          </div>
+
+          <!-- Hero Numbered Capabilities / Domains (Folioblox feature) -->
+          <div class="hero-domains-grid">
+            <div class="domain-card">
+              <span class="domain-num">#01</span>
+              <span class="domain-name">Blockchain & Smart Contracts</span>
+            </div>
+            <div class="domain-card">
+              <span class="domain-num">#02</span>
+              <span class="domain-name">Full-Stack Architecture</span>
+            </div>
+            <div class="domain-card">
+              <span class="domain-num">#03</span>
+              <span class="domain-name">Cloud & CI/CD DevOps</span>
+            </div>
+            <div class="domain-card">
+              <span class="domain-num">#04</span>
+              <span class="domain-name">Hardware & Network Simulation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech Stack Ticker Strip -->
+        <div class="tech-ticker-wrap">
+          <div class="ticker-label">Specialized Stack</div>
+          <div class="ticker-track">
+            <div class="ticker-items">
+              <span class="ticker-item"><span class="ticker-dot"></span>Solidity & Ethereum</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>Solana & Anchor</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>React.js & Next.js</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>TypeScript & Node.js</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>Python & Flask</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>Docker & Nginx</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>Verilog & Hardware Sim</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>Prometheus & Grafana</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>MongoDB & MySQL</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>IPFS & Supabase</span>
+            </div>
+            <!-- Duplicate for infinite seamless marquee -->
+            <div class="ticker-items" aria-hidden="true">
+              <span class="ticker-item"><span class="ticker-dot"></span>Solidity & Ethereum</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>Solana & Anchor</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>React.js & Next.js</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>TypeScript & Node.js</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>Python & Flask</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>Docker & Nginx</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>Verilog & Hardware Sim</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>Prometheus & Grafana</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>MongoDB & MySQL</span>
+              <span class="ticker-item"><span class="ticker-dot"></span>IPFS & Supabase</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT & PHILOSOPHY SECTION (Behind the Code - Folioblox layout) -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-header">
+            <span class="section-tag">Behind the Engineering</span>
+            <h2 class="section-heading">Architecting Robust Systems That Solve Real-World Problems</h2>
+          </div>
+          
+          <div class="about-text-block">
+            <p class="lead-text">
+              I am a Computer Science & Engineering student at <strong>Dayananda Sagar College of Engineering (CGPA: 9.2)</strong>, specializing in IoT, Cybersecurity, and Blockchain Technology.
+            </p>
+            <p class="body-text">
+              My engineering philosophy revolves around building transparent, tamper-proof, and highly performant decentralized architectures. Whether co-inventing patent-pending carbon credit governance systems or engineering CPU cache simulation engines, I love digging deep into protocols, security mechanisms, and full-stack integration.
+            </p>
+            
+            <div class="about-cta-row">
+              <div class="about-cta-sub">
+                <span class="highlight-label">Let's build something</span>
+                <span class="highlight-val">Impactful & Resilient Together</span>
+              </div>
+              <a href="#connect" class="btn btn-pill-accent">
+                <span>Get in touch</span>
+                <svg class="icon-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Highlight Bento Cards (Folioblox 3-card lower row) -->
+        <div class="bento-row">
+          <div class="bento-card glass-card">
+            <div class="bento-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <h3 class="bento-title">Cryptographic Systems</h3>
+            <p class="bento-desc">Smart contracts, tokenized asset lifecycle governance, zero double-counting proofs, and decentralized escrow mechanisms.</p>
+          </div>
+
+          <div class="bento-card glass-card">
+            <div class="bento-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="bento-title">Full-Stack & DevOps</h3>
+            <p class="bento-desc">End-to-end responsive web apps with React, Node.js, and Flask, containerized with Docker, Nginx, and automated CI/CD pipelines.</p>
+          </div>
+
+          <div class="bento-card glass-card">
+            <div class="bento-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="12 6 12 12 16 14"></polygon>
+              </svg>
+            </div>
+            <h3 class="bento-title">Research & Hardware Sim</h3>
+            <p class="bento-desc">Verilog logic design, CPU cache simulator algorithms (LRU/FIFO), network load balancer modeling, and ISRO space science research.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-tag">Core Competencies</span>
+          <h2 class="section-heading">Technical Capabilities</h2>
+          <p class="section-subheading">Languages, frameworks, developer tooling, and infrastructure technologies I work with daily.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card: Languages -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Programming Languages</h3>
+                <span class="skill-cat-sub">Core programming languages</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge highlight">Python</span>
+              <span class="skill-badge highlight">Solidity</span>
+              <span class="skill-badge highlight">TypeScript</span>
+              <span class="skill-badge">JavaScript</span>
+              <span class="skill-badge">C</span>
+              <span class="skill-badge">C++</span>
+              <span class="skill-badge">Verilog</span>
+            </div>
+          </div>
+
+          <!-- Skill Card: Web & Backend -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 17l6-6-6-6"></path>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Web & Backend</h3>
+                <span class="skill-cat-sub">Full stack architectures</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge highlight">React.js</span>
+              <span class="skill-badge highlight">Node.js</span>
+              <span class="skill-badge">Express.js</span>
+              <span class="skill-badge">Flask</span>
+              <span class="skill-badge">REST APIs</span>
+              <span class="skill-badge highlight">MongoDB</span>
+              <span class="skill-badge">HTML5 & CSS3</span>
+            </div>
+          </div>
+
+          <!-- Skill Card: DevOps & Cloud -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">DevOps & Observability</h3>
+                <span class="skill-cat-sub">Deployment & telemetry</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge highlight">Docker</span>
+              <span class="skill-badge">Docker Compose</span>
+              <span class="skill-badge">Nginx</span>
+              <span class="skill-badge highlight">GitHub Actions CI/CD</span>
+              <span class="skill-badge">Prometheus</span>
+              <span class="skill-badge">Grafana</span>
+            </div>
+          </div>
+
+          <!-- Skill Card: Tools & Web3 Platforms -->
+          <div class="skill-category-card glass-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Tools & Web3 Platforms</h3>
+                <span class="skill-cat-sub">Development ecosystems</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-badge highlight">Git & GitHub</span>
+              <span class="skill-badge highlight">Hardhat</span>
+              <span class="skill-badge">MetaMask</span>
+              <span class="skill-badge highlight">IPFS</span>
+              <span class="skill-badge">Linux</span>
+              <span class="skill-badge">VS Code</span>
+              <span class="skill-badge">Icarus Verilog</span>
+              <span class="skill-badge">WaveDrom</span>
+              <span class="skill-badge">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PATENT HIGHLIGHT SECTION (Special Showcase) -->
+    <section class="section patent-section" id="patent">
+      <div class="container">
+        <div class="patent-card glass-card">
+          <div class="patent-grid">
+            <div class="patent-info">
+              <div class="patent-badge">
+                <span class="patent-icon">📜</span>
+                <span>Patent Pending • Indian Patent Office</span>
+              </div>
+              <span class="patent-app-num">Application No. 202641027095 A • Filed March 2026</span>
+              <h2 class="patent-title">
+                Decentralized System and Method for Lifecycle Governance of Carbon Assets via Smart Contracts and Cryptographic Verification
+              </h2>
+              <p class="patent-description">
+                Co-invented a state-of-the-art hybrid DApp combining blockchain smart contracts with an off-chain database (MongoDB) to digitize and democratize the carbon credit market. The architecture enforces cryptographic Web3-wallet identity and on-chain token retirement, mathematically eliminating the systemic risk of double-counting offsets.
+              </p>
+              <div class="patent-features">
+                <div class="p-feature">
+                  <span class="p-feature-dot"></span>
+                  <span>Cryptographic Web3-wallet identity verification</span>
+                </div>
+                <div class="p-feature">
+                  <span class="p-feature-dot"></span>
+                  <span>Immutable on-chain token retirement flow</span>
+                </div>
+                <div class="p-feature">
+                  <span class="p-feature-dot"></span>
+                  <span>Hybrid off-chain telemetry with on-chain settlement</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="patent-visual-col">
+              <div class="patent-graphic-frame">
+                <img src="assets/carbon-credit.jpg" alt="Carbon Asset Governance Architecture" class="patent-img">
+                <div class="patent-graphic-overlay">
+                  <div class="patent-tech-pill">Solidity • Polygon • IPFS • MongoDB</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-header-row">
+          <div>
+            <span class="section-tag">Featured Works</span>
+            <h2 class="section-heading">Engineered Projects</h2>
+          </div>
+          <div class="project-filter-buttons" id="projectFilters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="blockchain">Blockchain & Web3</button>
+            <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+            <button class="filter-btn" data-filter="systems">Systems & Simulation</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          
+          <!-- Project 1: Carbon Credit Trading Platform -->
+          <article class="project-card glass-card" data-category="blockchain fullstack">
+            <div class="project-image-wrap">
+              <img src="assets/carbon-credit.jpg" alt="Carbon Credit Trading Platform" class="project-img">
+              <div class="project-overlay">
+                <button class="btn btn-pill-accent btn-sm view-details-btn" data-project="carbon-credit">
+                  <span>Explore Architecture</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-badge">Web3 Platform</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Carbon Credit Trading Platform</h3>
+              <p class="project-desc">
+                Decentralized platform for transparent carbon credit trading with role-based access for companies, verifiers, and regulators. Includes a real-time emissions dashboard and conversion calculator.
+              </p>
+              <div class="project-tech-tags">
+                <span>TypeScript</span>
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Solidity</span>
+                <span>Ethereum/Polygon</span>
+                <span>MongoDB</span>
+                <span>IPFS</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Proof of Human Work -->
+          <article class="project-card glass-card" data-category="blockchain fullstack">
+            <div class="project-image-wrap">
+              <img src="assets/proof-human.jpg" alt="Proof of Human Work" class="project-img">
+              <div class="project-overlay">
+                <button class="btn btn-pill-accent btn-sm view-details-btn" data-project="proof-human">
+                  <span>Explore Architecture</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-badge">Solana DApp</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Proof of Human Work</h3>
+              <p class="project-desc">
+                Decentralized Solana marketplace where organizations escrow SOL for micro-tasks and workers get paid trustlessly. Anti-fraud pipeline combines MediaPipe liveness detection with behavioral integrity scoring.
+              </p>
+              <div class="project-tech-tags">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Solana</span>
+                <span>Anchor</span>
+                <span>Supabase</span>
+                <span>MediaPipe</span>
+                <span>IPFS</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: FinliT -->
+          <article class="project-card glass-card" data-category="fullstack">
+            <div class="project-image-wrap">
+              <img src="assets/finlit.jpg" alt="FinliT Gamified Financial Platform" class="project-img">
+              <div class="project-overlay">
+                <button class="btn btn-pill-accent btn-sm view-details-btn" data-project="finlit">
+                  <span>Explore Architecture</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-badge">FinTech & EdTech</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3 class="project-title">FinliT — Gamified Financial Literacy & Micro-Investing</h3>
+              <p class="project-desc">
+                Gen Z-focused FinTech platform teaching budgeting, saving, and investing via XP, streaks, and achievements. Simulates transaction round-ups feeding student-friendly portfolios with an AI coach concept.
+              </p>
+              <div class="project-tech-tags">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Tailwind CSS</span>
+                <span>Gamification Engine</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: CacheMap Web Simulator -->
+          <article class="project-card glass-card" data-category="systems fullstack">
+            <div class="project-image-wrap">
+              <img src="assets/cachemap.jpg" alt="CacheMap Web Simulator" class="project-img">
+              <div class="project-overlay">
+                <button class="btn btn-pill-accent btn-sm view-details-btn" data-project="cachemap">
+                  <span>Explore Architecture</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-badge">Systems & Hardware</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3 class="project-title">CacheMap Web Simulator</h3>
+              <p class="project-desc">
+                Full-stack educational tool visualizing CPU Cache Memory via a Python simulation engine (LRU/FIFO, L1/L2) and a hardware mode running Verilog testbenches, containerized with Docker and monitored by Prometheus/Grafana.
+              </p>
+              <div class="project-tech-tags">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>Verilog</span>
+                <span>Icarus Verilog</span>
+                <span>Docker</span>
+                <span>Nginx</span>
+                <span>Prometheus</span>
+                <span>Grafana</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Campus WiFi Load Balancer -->
+          <article class="project-card glass-card" data-category="systems">
+            <div class="project-content full-width-card">
+              <div class="project-meta">
+                <span class="project-badge">Network Systems</span>
+                <span class="project-year">2025</span>
+              </div>
+              <h3 class="project-title">Campus WiFi Load Balancer</h3>
+              <p class="project-desc">
+                Real-time simulation of campus network traffic with Weighted Least Load and Round Robin scheduling algorithms; demonstrates automatic server failover and measures distribution fairness using Jain's Fairness Index.
+              </p>
+              <div class="project-tech-tags">
+                <span>Python</span>
+                <span>Distributed Systems</span>
+                <span>Network Scheduling</span>
+                <span>Jain's Fairness Index</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS SECTION -->
+    <section class="section edu-cert-section" id="education">
+      <div class="container">
+        <div class="edu-cert-grid">
+          
+          <!-- Education Column -->
+          <div class="edu-col">
+            <div class="section-sub-header">
+              <span class="section-tag">Academic Background</span>
+              <h2 class="section-heading-sm">Education</h2>
+            </div>
+
+            <div class="timeline">
+              <!-- College -->
+              <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-header">
+                  <div>
+                    <h3 class="timeline-title">Dayananda Sagar College of Engineering</h3>
+                    <p class="timeline-subtitle">Bengaluru, Karnataka</p>
+                  </div>
+                  <span class="timeline-date">2024 – 2028</span>
+                </div>
+                <p class="timeline-degree">
+                  <strong>B.E. — Computer Science & Engineering</strong><br>
+                  <span class="degree-spec">(IoT & Cybersecurity including Blockchain Technology)</span>
+                </p>
+                <div class="cgpa-pill">
+                  <span class="cgpa-label">Cumulative GPA:</span>
+                  <span class="cgpa-value">9.2 / 10</span>
+                </div>
+              </div>
+
+              <!-- School -->
+              <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-header">
+                  <div>
+                    <h3 class="timeline-title">Air Force School</h3>
+                    <p class="timeline-subtitle">Coimbatore, Tamil Nadu</p>
+                  </div>
+                  <span class="timeline-date">Graduated 2024</span>
+                </div>
+                <p class="timeline-degree">
+                  Class XII — CBSE (2024)<br>
+                  Class X — CBSE (2022)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="cert-col">
+            <div class="section-sub-header">
+              <span class="section-tag">Credentials</span>
+              <h2 class="section-heading-sm">Certifications & Research</h2>
+            </div>
+
+            <div class="cert-list">
+              <!-- Cert 1: Oracle -->
+              <div class="cert-card glass-card">
+                <div class="cert-icon-box oracle">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                  </svg>
+                </div>
+                <div class="cert-details">
+                  <h3 class="cert-title">Oracle Cloud Infrastructure Foundations Associate</h3>
+                  <div class="cert-issuer-row">
+                    <span class="cert-issuer">Oracle</span>
+                    <span class="cert-divider">•</span>
+                    <span class="cert-date">Aug 2025</span>
+                  </div>
+                  <p class="cert-desc">Cloud architecture fundamentals, IAM security, compute networking, and storage primitives.</p>
+                </div>
+              </div>
+
+              <!-- Cert 2: ISRO Space Science -->
+              <div class="cert-card glass-card">
+                <div class="cert-icon-box isro">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+                    <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+                    <path d="M9 12H4s.55-3.03 2-4.5c1.45-1.47 4.5-2 4.5-2"></path>
+                    <path d="M15 12v5s3.03-.55 4.5-2c1.47-1.45 2-4.5 2-4.5"></path>
+                  </svg>
+                </div>
+                <div class="cert-details">
+                  <h3 class="cert-title">The Method of Space Science Research</h3>
+                  <div class="cert-issuer-row">
+                    <span class="cert-issuer">IIRS, Indian Space Research Organization (ISRO)</span>
+                    <span class="cert-divider">•</span>
+                    <span class="cert-date">Jun 2025</span>
+                  </div>
+                  <p class="cert-desc">Space exploration methodology, remote sensing data processing, and telemetry analysis.</p>
+                </div>
+              </div>
+
+              <!-- Cert 3: ISRO Cyber Security -->
+              <div class="cert-card glass-card">
+                <div class="cert-icon-box isro">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                </div>
+                <div class="cert-details">
+                  <h3 class="cert-title">Geo-data Sharing and Cyber Security</h3>
+                  <div class="cert-issuer-row">
+                    <span class="cert-issuer">IIRS, Indian Space Research Organization (ISRO)</span>
+                    <span class="cert-divider">•</span>
+                    <span class="cert-date">Jan 2025</span>
+                  </div>
+                  <p class="cert-desc">Secure geospatial data exchange, cryptography, and cyber defense protocols.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LET'S CONNECT CONTACT SECTION (Reaches sarvagya0624@gmail.com) -->
+    <section class="section contact-section" id="connect">
+      <div class="container">
+        <div class="contact-card glass-card">
+          <div class="contact-grid">
+            
+            <!-- Left Info Column -->
+            <div class="contact-info-col">
+              <span class="section-tag">Let's Talk</span>
+              <h2 class="contact-heading">Let's Connect & Build Something Great</h2>
+              <p class="contact-lead">
+                Whether you have an inquiry about a project, Web3 research, or just want to exchange ideas on decentralized systems, my inbox is always open.
+              </p>
+
+              <div class="contact-direct-box">
+                <div class="contact-method">
+                  <div class="method-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">Direct Email</span>
+                    <a href="mailto:sarvagya0624@gmail.com" class="method-value" id="emailDisplay">sarvagya0624@gmail.com</a>
+                  </div>
+                  <button class="copy-btn" id="copyEmailBtn" title="Copy email address" aria-label="Copy email address">
+                    <svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span class="copy-tooltip" id="copyTooltip">Copied!</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="social-links-row">
+                <a href="https://linkedin.com/in/sarvagya-chaturvedi" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                  <span>LinkedIn</span>
+                </a>
+
+                <a href="https://github.com/sarvagyachaturvedi" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Interactive Form Column -->
+            <div class="contact-form-col">
+              <form class="contact-form" id="contactForm" novalidate>
+                
+                <div class="form-group">
+                  <label for="userName" class="form-label">Your Name</label>
+                  <div class="input-wrapper">
+                    <input type="text" id="userName" name="name" class="form-input" placeholder="e.g. Satoshi Nakamoto" required>
+                    <span class="input-focus-line"></span>
+                  </div>
+                  <span class="field-error" id="nameError">Please enter your name</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userEmail" class="form-label">Your Email</label>
+                  <div class="input-wrapper">
+                    <input type="email" id="userEmail" name="email" class="form-input" placeholder="e.g. satoshi@example.com" required>
+                    <span class="input-focus-line"></span>
+                  </div>
+                  <span class="field-error" id="emailError">Please provide a valid email address</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userSubject" class="form-label">Topic / Subject (Optional)</label>
+                  <div class="input-wrapper">
+                    <input type="text" id="userSubject" name="subject" class="form-input" placeholder="e.g. Blockchain Collaboration / Opportunity">
+                    <span class="input-focus-line"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="userMessage" class="form-label">Send a Message</label>
+                  <div class="input-wrapper">
+                    <textarea id="userMessage" name="message" class="form-textarea" rows="4" placeholder="Tell me about your project, idea, or question..." required></textarea>
+                    <span class="input-focus-line"></span>
+                  </div>
+                  <span class="field-error" id="messageError">Please type your message</span>
+                </div>
+
+                <div class="form-submit-row">
+                  <button type="submit" class="btn btn-pill-accent btn-lg submit-btn" id="submitBtn">
+                    <span class="btn-text">Send Message</span>
+                    <svg class="icon-send" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="22" y1="2" x2="11" y2="13"></line>
+                      <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                    <div class="spinner" id="btnSpinner"></div>
+                  </button>
+                </div>
+
+                <div class="form-status-alert" id="formStatus" role="alert" aria-live="polite"></div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Detail Modal -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog">
+    <div class="modal-dialog glass-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Content injected dynamically via app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastNotification" role="status" aria-live="polite">
+    <span class="toast-message" id="toastMessage"></span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <span class="logo-dot"></span>
+          <span>Sarvagya Chaturvedi</span>
+        </div>
+        <p class="footer-copy">&copy; 2026 Sarvagya Chaturvedi. Engineered with precision & dark aesthetic.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#patent">Patent</a>
+        <a href="#connect">Connect</a>
+      </div>
+
+      <div class="footer-back-to-top">
+        <a href="#hero" class="back-top-btn" aria-label="Scroll back to top">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
