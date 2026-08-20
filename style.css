@@ -998,8 +998,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .patent-features {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 14px 32px;
+  margin-top: 22px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .p-feature {
